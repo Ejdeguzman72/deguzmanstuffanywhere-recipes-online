@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.landing-page-btn {
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  opacity: 0.6;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.landing-page-btn:hover {
+  color: black;
+  border-radius: 50px;
+  background-color: #F8F0E3;
+  opacity: 0.6;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: right;
+  font-size: 1em;
+}
+
+.footer-text {
+  margin: 10px;
+}
