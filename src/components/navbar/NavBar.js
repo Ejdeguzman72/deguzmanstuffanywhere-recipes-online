@@ -8,7 +8,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand className="brand-name" href="/">DSA Recipes Online</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
+            
           </Nav>
         </Container>
       </Navbar>

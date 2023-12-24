@@ -6,7 +6,7 @@ import AllRecipes from '../components/recipe/AllRecipes';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="background">
             <AllRecipes />
         </div>
     )

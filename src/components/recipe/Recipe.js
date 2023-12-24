@@ -4,8 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 const Recipe = ({ recipe }) => {
     return (
         <div>
-            <Accordion>
-                <Accordion.Item eventKey="0">
+            <Accordion flush>
+                <Accordion.Item eventKey="0" variant="dark">
                     <Accordion.Header>{recipe.name}</Accordion.Header>
                     <Accordion.Body>
                         <p> Description: {recipe.descr} </p>

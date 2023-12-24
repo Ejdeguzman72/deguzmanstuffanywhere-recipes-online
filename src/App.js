@@ -5,7 +5,6 @@ import LandingPage from './page/LandingPage';
 import HomePage from './page/HomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar';
-import { Nav } from 'react-bootstrap';
 
 function App() {
   return (
