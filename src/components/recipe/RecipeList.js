@@ -7,6 +7,7 @@ const RecipeList = ({ recipes }) => {
             {recipes.map((recipe,index) => (
                 <Recipe key={index} recipe={recipe} />
             ))}
+            <br></br>
         </div>
     )
 }

@@ -4,14 +4,17 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" fixed='top'>
-        <Container>
-          <Navbar.Brand className="brand-name" href="/">DSA Recipes Online</Navbar.Brand>
-          <Nav className="me-auto">
-            
-          </Nav>
-        </Container>
-      </Navbar>
+    <div>
+      <Navbar bg="dark" data-bs-theme="dark" fixed='top'>
+          <Container>
+            <Navbar.Brand className="brand-name" href="/">DSA Recipes Online</Navbar.Brand>
+            <Nav className="me-auto"></Nav>
+          </Container>
+        </Navbar>
+        <br></br>
+        <br></br>
+    </div>
+  
   );
 }
 

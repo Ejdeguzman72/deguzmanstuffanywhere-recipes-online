@@ -6,8 +6,8 @@ const Recipe = ({ recipe }) => {
         <div>
             <Accordion flush>
                 <Accordion.Item eventKey="0" variant="dark">
-                    <Accordion.Header>{recipe.name}</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Header className="accordion-header">{recipe.name}</Accordion.Header>
+                    <Accordion.Body className='accordion-body'>
                         <p> Description: {recipe.descr} </p>
                         <h3> Ingredients: </h3>
                         <ul>
